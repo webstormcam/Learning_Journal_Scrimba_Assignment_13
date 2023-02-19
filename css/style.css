@@ -3,4 +3,32 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
  }
+
+
+ header,nav,.logo-section{
+    display: flex;
+    flex-direction: row;
+ }
+
+ header{
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.2em;
+ }
+
+ header,.logo-section{
+    align-items: center;
+ }
+
+ h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.813rem;
+ }
+
+ .logo{
+    width: 23px;
+    height: 23px;
+    margin-right: 0.2em;
+ }
+
  
