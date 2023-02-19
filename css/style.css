@@ -2,6 +2,14 @@
     box-sizing: border-box;   
  }
 
+ /*All Sections*/
+ .date{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.886rem;
+    margin-bottom: 1em;
+ }
+
 /* Header Mobile CSS */
  header,nav,.logo-section{
     display: flex;
@@ -41,6 +49,39 @@
 
  nav a:first-child{
     margin-right: 2em;
+ }
+
+
+/* Top-Main Article CSS */
+ .top-article{
+    background-image: url("../images/article-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    min-height: 293px;
+    display: flex;
+    align-items: end;
+    
+ }
+
+ .top-article-words{
+    padding: 0em 1em;
+    margin-bottom: 1.2em;
+ }
+
+ h2{
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.3em;
+ }
+
+ .article-info{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
  }
 
  
