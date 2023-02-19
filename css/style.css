@@ -1,10 +1,8 @@
 *, *::before, *::after {
     box-sizing: border-box;   
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
  }
 
-
+/* Header Mobile CSS */
  header,nav,.logo-section{
     display: flex;
     flex-direction: row;
@@ -29,6 +27,20 @@
     width: 23px;
     height: 23px;
     margin-right: 0.2em;
+ }
+
+ nav a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+
+ }
+
+ nav a:first-child{
+    margin-right: 2em;
  }
 
  
