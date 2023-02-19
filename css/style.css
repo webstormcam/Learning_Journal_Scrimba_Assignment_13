@@ -89,22 +89,43 @@
 
  @media screen and (min-width:1024px) {
 
-    /*All Sections*/
+    /*All Sections Desktop*/
     .date{
         font-size: 1rem;
     }
+
+    /* Header Desktop CSS */
+
+    header{
+        padding: 1em 3em;
+     }
+
+    .logo{
+        width: 34.25px;
+        height: 34.25px;
+    }
+
+    h1{
+        font-size: 1.253rem;
+    }
+
+    nav a{
+        font-size: 1rem;
+    
+     }
 
 
     /* Top-Main Article desktop CSS */
     .top-article{
         height: 488px;
+       
      }
 
      .top-article-words{
-        padding: 0em 1.2em;
-        margin-bottom: 5em;
         
         max-width: 800px;
+        padding: 0em 3em;
+        margin-bottom: 4em;
      }
 
      .article-info{
