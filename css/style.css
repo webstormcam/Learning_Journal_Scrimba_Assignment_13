@@ -101,6 +101,14 @@ main{
     line-height: 1.4;
  }
 
+ /*Grid Area Mobile*/
+
+ .grid-area{
+   display: grid;
+ }
+
+ 
+
 
 
  @media screen and (min-width:1024px) {
