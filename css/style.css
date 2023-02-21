@@ -115,6 +115,7 @@ main{
 
  .grid-image{
    width: 100%;
+ 
    margin-bottom: 1em;
  }
 
@@ -171,6 +172,7 @@ footer{
    padding: 2em;
    color: #ffffff;
    background-color: #202020;
+   width: 100%;
 }
 
 h4{
