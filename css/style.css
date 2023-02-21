@@ -141,6 +141,50 @@ main{
  }
 
  
+ /*View Button area*/
+
+ .view-more-area{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 2em 0em;
+ }
+
+ .view-more-area button{
+   background: #ffff;
+   border: none;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 700;
+   text-decoration: underline;
+ }
+
+
+
+/*Footer Mobile CSS*/
+
+footer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 2em;
+   color: #ffffff;
+   background-color: #202020;
+}
+
+h4{
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 700;
+   font-size: 0.75rem;
+   margin-bottom: 0.6em;
+}
+
+.copyright{
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 400;
+   font-size: 0.75rem;
+}
+ 
 
 
 
@@ -201,6 +245,10 @@ main{
    
    padding: 0em 3em;
    max-width: 1085px;
+ }
+
+ .hidden{
+   display: block;
  }
 
    
