@@ -144,6 +144,15 @@ main{
    padding: 0em 1.2em;
  }
 
+ .blog-subs{
+   font-size: 1rem;
+   margin-bottom: 1em;
+ }
+
+ .blog-words p{
+   margin-bottom: 1.5em;
+ }
+
  /*Grid Area Mobile*/
 
  .grid-area{
@@ -224,6 +233,7 @@ footer{
    color: #ffffff;
    background-color: #202020;
    width: 100%;
+   margin-top: 2em;
 }
 
 h4{
