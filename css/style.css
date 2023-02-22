@@ -209,6 +209,14 @@ h4{
    font-weight: 400;
    font-size: 0.75rem;
 }
+
+
+@media screen and (min-width:663px ) and (max-width:1043px){
+   .grid-image {
+      
+      height: 55%;
+  }
+}
  
 
 
