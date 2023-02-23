@@ -26,20 +26,27 @@
  }
 
 /* Header Mobile CSS */
- header,nav,.logo-section{
+ .header-items,nav,.logo-section{
     display: flex;
     flex-direction: row;
  }
 
  header{
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em 1.2em;
+ 
+   background-color: #ffffff;
     width: 100%;
-    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
  }
 
- header,.logo-section{
+ .header-items{
+   justify-content: space-between;
+   align-items: center;
+   padding: 1em 1.2em;
+   width: 100%;
+ }
+
+ .header-items,.logo-section{
     align-items: center;
  }
 
@@ -277,7 +284,7 @@ h4{
 
     /* Header Desktop CSS */
 
-    header{
+    .header-items{
         padding: 1em 3em;
         max-width: 1085px;
      }
