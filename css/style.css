@@ -100,6 +100,10 @@ main{
   
  }
 
+ .blog-word-length{
+   max-width: none;
+ }
+
  .blog-link{
    text-decoration: none;
    color: #ffffff;
@@ -138,6 +142,8 @@ main{
     font-weight: 400;
     line-height: 1.4;
  }
+
+ 
 
  .blog-words{
    margin-top: 1.5rem;
@@ -290,6 +296,23 @@ h4{
 
 
     /* Top-Main Article desktop CSS */
+
+     .blog-main{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }
+
+     .blog-article{
+      justify-content: center;
+      max-width: 844px;
+     }
+
+     .blog-article .top-article-words{
+      padding: 0em;
+     }
+
+
     .top-article{
         display: flex;
         justify-content: center;
@@ -308,6 +331,11 @@ h4{
         max-width: 620px;
      }
 
+     .article-info-full{
+      max-width: none;
+    }
+
+
      h2{
         font-size: 2.5rem;
      }
@@ -320,6 +348,25 @@ h4{
 
      .large-image{
       max-width: 1010px;
+     }
+
+     
+
+     .blog-words{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     max-width: 844px;
+     padding: 0em;
+     margin-top: 3em;
+     }
+
+     .blog-subs{
+      font-size: 1.5rem;
+     }
+
+     .recent-posts{
+      font-size: 1.5rem;
      }
 
       /*Grid Area Desktop*/
