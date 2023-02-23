@@ -333,6 +333,18 @@ h4{
       padding: 0em;
      }
 
+     .image-about-me{
+      margin-top: 2em;
+      max-width: 1085px;
+      padding: 1em 3em;
+      flex-direction: row;
+      align-items: center;
+     }
+
+     .roku-image{
+      margin-right: 1em;
+     }
+
 
     .top-article{
         display: flex;
